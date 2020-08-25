@@ -271,6 +271,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     fstab.qcom \
+    fstab_ramdisk.qcom \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.recovery.qcom.rc \
