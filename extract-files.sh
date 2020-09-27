@@ -63,6 +63,9 @@ function blob_fixup() {
         product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml|product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml)
             sed -i 's/version="2.0"/version="1.0"/g' "${2}"
             ;;
+        product/lib/libdpmframework.so|product/lib64/libdpmframework.so)
+            "${PATCHELF}" --replace-needed "libhidltransport.so" "libcutils-v29.so" "${2}"
+            ;;
     esac
 }
 
