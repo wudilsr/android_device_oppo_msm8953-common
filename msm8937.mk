@@ -77,6 +77,19 @@ PRODUCT_PACKAGES += \
     libgenlock \
     libtinyxml
 
+# DRM
+## TODO
+## Kill legacy @1.0 HIDL once we'll use 4.9,
+## so we can uprev target level to 3 and
+## get rid of VINTF requirement for it.
+## We don't have any module in vendor/lib64/mediadrm
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.0-impl \
+    android.hardware.drm@1.0-service
+
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.2-service.clearkey
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
