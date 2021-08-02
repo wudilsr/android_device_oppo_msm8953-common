@@ -68,6 +68,10 @@ OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
+# FM
+BOARD_HAVE_QCOM_FM := true
+TARGET_QCOM_NO_FM_FIRMWARE := true
+
 # HIDL
 DEVICE_MATRIX_FILE += $(COMMON_PATH)/compatibility_matrix.xml
 DEVICE_MANIFEST_FILE += $(COMMON_PATH)/manifest.xml

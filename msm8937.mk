@@ -90,6 +90,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.2-service.clearkey
 
+# FM
+PRODUCT_PACKAGES += \
+    FMRadio \
+    libfmjni
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
