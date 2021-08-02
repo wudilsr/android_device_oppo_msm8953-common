@@ -40,6 +40,19 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor
 
+# Camera
+PRODUCT_PACKAGES += \
+    android.hardware.camera.provider@2.4-impl \
+    android.hardware.camera.provider@2.4-service
+
+PRODUCT_PACKAGES += \
+    libgui_vendor \
+    libstdc++.vendor \
+    android.frameworks.displayservice@1.0.vendor
+
+PRODUCT_PACKAGES += \
+    Snap
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
