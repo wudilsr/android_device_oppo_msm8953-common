@@ -60,5 +60,9 @@ TARGET_USES_MKE2FS := true
 # SEPolicy
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 
+# Treble
+BOARD_VNDK_VERSION := current
+PRODUCT_FULL_TREBLE_OVERRIDE := true
+
 # Inherit the proprietary files
 include vendor/oppo/msm8937-common/BoardConfigVendor.mk
