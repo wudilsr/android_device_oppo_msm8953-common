@@ -122,5 +122,18 @@ include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_VNDK_VERSION := current
 PRODUCT_FULL_TREBLE_OVERRIDE := true
 
+# Wi-Fi
+BOARD_HAS_QCOM_WLAN := true
+BOARD_HOSTAPD_DRIVER := NL80211
+BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_qcwcn
+BOARD_WLAN_DEVICE := qcwcn
+BOARD_WPA_SUPPLICANT_DRIVER := NL80211
+BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_qcwcn
+TARGET_HAS_BROKEN_WLAN_SET_INTERFACE := true
+WIFI_DRIVER_FW_PATH_AP := "ap"
+WIFI_DRIVER_FW_PATH_STA := "sta"
+WIFI_HIDL_FEATURE_DISABLE_AP_MAC_RANDOMIZATION := true
+WPA_SUPPLICANT_VERSION := VER_0_8_X
+
 # Inherit the proprietary files
 include vendor/oppo/msm8937-common/BoardConfigVendor.mk

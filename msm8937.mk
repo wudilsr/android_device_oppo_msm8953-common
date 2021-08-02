@@ -208,5 +208,21 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl \
     android.hardware.vibrator@1.0-service
 
+# Wifi
+PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0-service \
+    dhcpcd.conf \
+    hostapd \
+    libcld80211 \
+    libqsap_sdk \
+    libQWiFiSoftApCfg \
+    libwifi-hal-ctrl \
+    libwifi-hal-qcom \
+    libwpa_client \
+    wcnss_service \
+    wificond \
+    wpa_supplicant \
+    wpa_supplicant.conf
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/oppo/msm8937-common/msm8937-common-vendor.mk)
