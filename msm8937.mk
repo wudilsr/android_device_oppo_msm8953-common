@@ -203,5 +203,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator@1.0-impl \
+    android.hardware.vibrator@1.0-service
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/oppo/msm8937-common/msm8937-common-vendor.mk)
