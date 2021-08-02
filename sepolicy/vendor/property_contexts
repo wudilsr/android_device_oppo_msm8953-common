@@ -1,0 +1,26 @@
+# Camera
+camera.dual.mode                        u:object_r:camera_prop:s0
+persist.camera.                         u:object_r:camera_prop:s0
+
+# Fingerprint
+fp.version.driver                       u:object_r:fingerprint_prop:s0
+goodix.fp.                              u:object_r:fingerprint_prop:s0
+goodix.version.                         u:object_r:fingerprint_prop:s0
+persist.sys.fp.                         u:object_r:fingerprint_prop:s0
+persist.vendor.sys.fp.                  u:object_r:fingerprint_prop:s0
+ro.boot.fp.                             u:object_r:fingerprint_prop:s0
+ro.boot.fpsensor                        u:object_r:fingerprint_prop:s0
+sys.fp.                                 u:object_r:fingerprint_prop:s0
+vendor.cdfinger.fp                      u:object_r:fingerprint_prop:s0
+
+# GPS
+persist.net.doxlat                      u:object_r:vendor_xlat_prop:s0
+
+# MPCTL
+sys.post_boot.parsed                    u:object_r:vendor_mpctl_prop:s0
+
+# QSEE
+sys.listeners.registered                u:object_r:vendor_tee_listener_prop:s0
+
+# RIL
+ctl.vendor.imsrcsd                      u:object_r:vendor_ctl_vendor_imsrcsservice_prop:s0
