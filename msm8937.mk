@@ -53,6 +53,30 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Snap
 
+# Display
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.allocator@2.0-impl \
+    android.hardware.graphics.allocator@2.0-service \
+    android.hardware.graphics.mapper@2.0-impl-2.1 \
+    gralloc.msm8937
+
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.composer@2.1-impl \
+    android.hardware.graphics.composer@2.1-service \
+    hwcomposer.msm8937
+
+PRODUCT_PACKAGES += \
+    android.hardware.memtrack@1.0-impl \
+    android.hardware.memtrack@1.0-service \
+    memtrack.msm8937
+
+PRODUCT_PACKAGES += \
+    libdisplayconfig \
+    liboverlay \
+    libqdMetaData.system \
+    libgenlock \
+    libtinyxml
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
