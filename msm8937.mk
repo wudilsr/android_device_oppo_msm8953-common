@@ -8,6 +8,10 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
+	$(LOCAL_PATH)/overlay-lineage
+
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Permissions
@@ -312,7 +316,9 @@ PRODUCT_PACKAGES += \
     libwifi-hal-ctrl \
     libwifi-hal-qcom \
     libwpa_client \
+	TetheringConfigOverlay \
     wcnss_service \
+    WifiOverlay \
     wificond \
     wpa_supplicant \
     wpa_supplicant.conf
