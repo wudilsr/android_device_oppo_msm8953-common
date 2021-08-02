@@ -64,6 +64,9 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 TARGET_USES_MKE2FS := true
 
+# Security patch level
+VENDOR_SECURITY_PATCH := 2018-05-05
+
 # SEPolicy
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 
