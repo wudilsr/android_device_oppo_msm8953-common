@@ -144,6 +144,10 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
+# Perf
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.perf@2.0.vendor
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
