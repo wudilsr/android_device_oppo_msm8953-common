@@ -193,5 +193,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@1.0-impl \
+    android.hardware.thermal@1.0-service \
+    thermal.msm8937
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/oppo/msm8937-common/msm8937-common-vendor.mk)
