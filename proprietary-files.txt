@@ -249,6 +249,12 @@ vendor/lib64/libsecureui.so|319abd8fb83fe719ea05a1cc4c05aff2e1eec1aa
 vendor/lib64/libsecureui_svcsock.so|e81b59a6e1dac85b67f238ea98136cc121b39ac4
 vendor/lib64/libssd.so|2f9371b25a9774a4f4b1d1879aa47aa8b6f02195
 
+# FM
+lib64/fm_helium.so|10bf2489995d3717ebb0f91c73ffec3504fd0159
+lib64/libfm-hci.so|a281726ca32cd52609c9b3e65345eb7dd868339c
+product/lib64/vendor.qti.hardware.fm@1.0.so|c190ec6ecb995b556c30a214a8a7cf4894e72e5f
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|e5a0fff3d1f5b5ba8c10022cb06036971d48be0b
+
 # GPS
 vendor/bin/garden_app|4981b8a9d94f0f1b582187d9d2f53705aee5e0b7
 vendor/bin/hw/android.hardware.gnss@2.0-service-qti|100d86b36b6aeb49c927d792808b5c6b9ef232c1
