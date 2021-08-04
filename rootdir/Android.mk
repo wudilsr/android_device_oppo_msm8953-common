@@ -10,14 +10,6 @@ LOCAL_MODULE_PATH  := $(TARGET_OUT_VENDOR_EXECUTABLES)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE       := init.qcom.class_core.sh
-LOCAL_MODULE_TAGS  := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_SRC_FILES    := bin/init.qcom.class_core.sh
-LOCAL_MODULE_PATH  := $(TARGET_OUT_VENDOR_EXECUTABLES)
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE       := init.qcom.early_boot.sh
 LOCAL_MODULE_TAGS  := optional
 LOCAL_MODULE_CLASS := ETC
@@ -54,22 +46,6 @@ LOCAL_MODULE       := init.qcom.usb.sh
 LOCAL_MODULE_TAGS  := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_SRC_FILES    := bin/init.qcom.usb.sh
-LOCAL_MODULE_PATH  := $(TARGET_OUT_VENDOR_EXECUTABLES)
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE       := init.qti.fm.sh
-LOCAL_MODULE_TAGS  := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_SRC_FILES    := bin/init.qti.fm.sh
-LOCAL_MODULE_PATH  := $(TARGET_OUT_VENDOR_EXECUTABLES)
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE       := init.qti.ims.sh
-LOCAL_MODULE_TAGS  := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_SRC_FILES    := bin/init.qti.ims.sh
 LOCAL_MODULE_PATH  := $(TARGET_OUT_VENDOR_EXECUTABLES)
 include $(BUILD_PREBUILT)
 

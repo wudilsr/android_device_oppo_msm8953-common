@@ -257,14 +257,11 @@ PRODUCT_PACKAGES += \
 # Rootdir
 PRODUCT_PACKAGES += \
     init.class_main.sh \
-    init.qcom.class_core.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
     init.qcom.sensors.sh \
     init.qcom.sh \
     init.qcom.usb.sh \
-    init.qti.fm.sh \
-    init.qti.ims.sh \
     init.qti.qseecomd.sh
 
 PRODUCT_PACKAGES += \
