@@ -115,6 +115,10 @@ PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
 
+# Keymaster
+PRODUCT_PACKAGES += \
+    libcrypto.vendor
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
