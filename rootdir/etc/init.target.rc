@@ -100,11 +100,6 @@ on init
     chmod 0660          /dev/sunwave_fp
     #add by sunwave end
 
-service qfp-daemon /system/vendor/bin/qfp-daemon
-   class late_start
-   user system
-   group system drmrpc
-
 # Allow usb charging to be disabled peristently
 on property:persist.usb.chgdisabled=1
     write /sys/class/power_supply/battery/charging_enabled 0
