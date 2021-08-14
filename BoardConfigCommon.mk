@@ -85,6 +85,10 @@ ODM_MANIFEST_QCRILD_FILES := $(COMMON_PATH)/manifest_qcrild.xml
 # HW crypto
 TARGET_HW_DISK_ENCRYPTION := true
 
+# Init
+TARGET_INIT_VENDOR_LIB ?= //$(COMMON_PATH):init_oppo_msm8937
+TARGET_RECOVERY_DEVICE_MODULES ?= init_oppo_msm8937
+
 # Kernel
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci firmware_class.path=/vendor/firmware_mnt/image loop.max_part=7
