@@ -13,21 +13,9 @@
 # Fingerprint - data
 /dev/socket/fpce(/.*)?                                                      u:object_r:fingerprint_socket:s0
 /data/fpc(/.*)?                                                             u:object_r:fingerprint_data_file:s0
-/data/gf_data(/.*)?                                                         u:object_r:fingerprint_data_file:s0
-/data/system/cdfinger(/.*)?                                                 u:object_r:fingerprint_data_file:s0
-/data/system/fingerprint(/.*)?                                              u:object_r:fingerprint_data_file:s0
-/data/system/sunwave(/.*)?                                                  u:object_r:fingerprint_data_file:s0
-/data/vendor/goodix(/.*)?                                                   u:object_r:fingerprint_data_file:s0
-/persist/data/gxfp(/.*)?                                                    u:object_r:fingerprint_data_file:s0
 
 # Fingerprint - device
-/dev/focal_fp                                                               u:object_r:fingerprint_device:s0
-/dev/fpsdev0                                                                u:object_r:fingerprint_device:s0
-/dev/fpsensor                                                               u:object_r:fingerprint_device:s0
-/dev/goodix_fp                                                              u:object_r:fingerprint_device:s0
-/dev/madev0                                                                 u:object_r:fingerprint_device:s0
-/dev/sunwave_fp                                                             u:object_r:fingerprint_device:s0
-/sys/devices(/platform)?/soc/soc:fpc1020(/.*)?                              u:object_r:fingerprint_sysfs:s0
+/sys/devices(/platform)?/soc/soc:fpc_fpc1020(/.*)?                          u:object_r:fingerprint_sysfs:s0
 
 # Input devices
 /(vendor|system/vendor)/usr/idc(/.*)?                                       u:object_r:vendor_idc_file:s0
