@@ -528,12 +528,6 @@ service qcom-c_core-sh  /vendor/bin/init.qcom.class_core.sh
     user root
     oneshot
 
-service qcom-c_main-sh /vendor/bin/init.class_main.sh
-    class main
-    user root
-    group root system
-    oneshot
-
 on property:vold.decrypt=trigger_restart_framework
     start qcom-c_main-sh
     start wcnss-service
@@ -582,12 +576,6 @@ service ftmd /system/bin/logwrapper /system/bin/ftmdaemon
     group bluetooth net_bt_admin misc diag net_bt
     disabled
     oneshot
-
-service qmiproxy /system/bin/qmiproxy
-    class main
-    user radio
-    group radio diag
-    disabled
 
 service vendor.sensors /vendor/bin/sscrpcd sensorspd
     class early_hal
@@ -867,14 +855,6 @@ service battery_monitor /system/bin/battery_monitor
 service vendor.ril-daemon2 /vendor/bin/hw/rild -c 2
     class main
     user radio
-    disabled
-    group radio cache inet misc audio sdcard_r sdcard_rw diag oem_2901 log
-    capabilities BLOCK_SUSPEND NET_ADMIN NET_RAW
-
-service vendor.ril-daemon3 /vendor/bin/hw/rild -c 3
-    class main
-    user radio
-    disabled
     group radio cache inet misc audio sdcard_r sdcard_rw diag oem_2901 log
     capabilities BLOCK_SUSPEND NET_ADMIN NET_RAW
 
