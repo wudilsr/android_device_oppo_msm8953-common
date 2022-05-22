@@ -577,16 +577,10 @@ service ftmd /system/bin/logwrapper /system/bin/ftmdaemon
     disabled
     oneshot
 
-service vendor.sensors /vendor/bin/sscrpcd sensorspd
-    class early_hal
-    user system
-    group system wakelock
-    capabilities BLOCK_SUSPEND
-
-service vendor.sensors.qti /vendor/bin/sensors.qti
+service vendor.sensors /vendor/bin/sensors.qcom
     class core
-    user system
-    group system
+    user root
+    group root
     disabled
 
 # Adjust socket buffer to enlarge TCP receive window for high bandwidth
