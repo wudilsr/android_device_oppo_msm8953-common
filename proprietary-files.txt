@@ -1,6 +1,6 @@
 # All unpinned blobs below are extracted from msm8937_64-user 6.0.1 MMB29M eng.root.20191205.095236 dev-keys
 
-# ADSP
+# ADSP - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/bin/adsprpcd|a5e878691577485c9f7ee33dfe02384a13f0a265
 vendor/lib/libadsprpc.so|c015a2b2b0c5255140a9c437a295c79b4a17e3fb
 vendor/lib/libadsp_default_listener.so|c9a1ee00b32a93a9496ec84393afa0625e929eed
@@ -15,7 +15,7 @@ vendor/lib64/libfastcvopt.so|10a613bfd248ede032b6dad556235656d45a23a6
 vendor/lib64/libmdsprpc.so|2b8f01000f4e339eb03dcc135132fd4704b3e59b
 vendor/lib64/libsdsprpc.so|dae656946f41946d0990b449b214ded187d06187
 
-# ADSP modules
+# ADSP modules - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so|035272c1d77bcd04e3a838056d512964744c9322
 vendor/lib/rfsa/adsp/libadsp_hvx_skel.so|6a1d6ee55cc65d0f12f6a9bfd04823b46d2d6a24
 vendor/lib/rfsa/adsp/libadsp_hvx_stats.so|2f6abffe644ed918ff1a7e0e330f8e9c32add72c
@@ -31,7 +31,7 @@ vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so|3e9c52069ff07e50191d3b3afb33b
 vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so|944169db3ac67056b92ef4f850f69346958370b5
 vendor/lib/rfsa/adsp/libscveT2T_skel.so|91b9200dbb982abf0d6b440668252d892a616f66
 
-# Audio
+# Audio - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/bin/audioflacapp|a8ae278497715aa53f6fb86d5f5af225da0fc5b0
 vendor/lib/libacdb-fts.so|87582f098caf4b23cfb03d500c48ab02046050d6
 vendor/lib/libacdbloader.so|3f7b03a4424721f0c1a26657cae472d471f238e6
@@ -64,26 +64,26 @@ vendor/lib64/libtinycompress_vendor.so|84560de4377821c2eb7d9cf7587cbb45a38b5d47
 vendor/lib64/soundfx/libqcbassboost.so|4a0953f02595747945b166837c7fe14215e109f2
 vendor/lib64/soundfx/libqcvirt.so|8878b4e72fdaece3f52ed043e0611007d7039604
 
-# Audiosphere
+# Audiosphere - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 etc/permissions/audiosphere.xml|3c6d8f14bd99e52a424282fd5d0a5b9b06485dea
 framework/audiosphere.jar|c1679f5aca56f0cb24745b3f7d219acd04833bed
 vendor/lib/soundfx/libasphere.so|4d0ccf1c282bb70619d20bf7d79021dc3815a579
 vendor/lib64/soundfx/libasphere.so|f552a053f935299b3fd9be03a596eb4c40dee50e
 
-# ANT+ (vendor)
+# ANT+ (vendor) - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/lib64/com.qualcomm.qti.ant@1.0.so|d374b4deb0df088dfc6151c37385a9b125bf3427
 
-# Bluetooth
+# Bluetooth - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|365c3de57a8a655da6b0882bf5411558025883e1
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|3ac2829b9062e6d81a56d3c43a70d268b49166a4
 vendor/lib64/libbtnv.so|f5b41bac778fb0b60725686968043c6caf67079d
 vendor/lib64/libbt-hidlclient.so|69414712e85c8fabf9be9c697f0eaba470ab70eb
 
-# Bluetooth (shared dependencies)
+# Bluetooth (shared dependencies) - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|c190ec6ecb995b556c30a214a8a7cf4894e72e5f
 
-# Bluetooth Audio
+# Bluetooth Audio - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/lib64/hw/audio.bluetooth_qti.default.so|a17474dec03b704cc9741c85f2f6aef62c5ad71e
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|a1a86ead8177ac54dfdab729b9adf06af1d4a747
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|4e188cd7cc009ced6af7901f357005623dd0875a
@@ -97,7 +97,7 @@ vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|e7efde96f1751fd73085
 vendor/lib/libbluetooth_audio_session_qti.so|0c39cc6f98d62b9f45a7c4053e707820a447bb16
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|d41e47a6f4dc8dee84130ebf5ad4bc5d80df2032
 
-# Camera firmware
+# Camera firmware - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/firmware/cpp_firmware_v1_8_0.fw|26e2badbb4e3049243f0a176722f26879e7b87e8
 vendor/firmware/cpp_firmware_v1_5_0.fw|ac19cd179b7b118bb3ea01a35fdfc78dc58164a1
 vendor/firmware/cpp_firmware_v1_6_0.fw|dcd3d1f904c7ee3d731f8f28b5f78f2503916ada
@@ -110,7 +110,7 @@ vendor/firmware/cpp_firmware_v1_10_0.fw|cf9458601aa4bbe9c57acfc1c7d0f158386ace9f
 vendor/firmware/cpp_firmware_v1_5_2.fw|58dd7f7c09dbb62bc6f334a8885064b292610675
 vendor/firmware/cpp_firmware_v1_1_6.fw|6b2c9fe0a43a9ce86a921e18faffe4d0a35746ee
 
-# CNE
+# CNE - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 etc/cne/Nexus/ATT/ATT_profiles.xml|33e568627fd3f94dc45bca1c01ad10e6d8fb5b52
 etc/cne/Nexus/ROW/ROW_profiles.xml|238e785e9674b27c4b2365958d127533d7293132
 etc/cne/Nexus/VZW/VZW_profiles.xml|0f63b632e3a3f114def7aeadaabd13851c8ceec5
@@ -192,7 +192,7 @@ vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so|8cd7aeb0f86d23def5c0269c
 vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so|e895462956bca23a950ac92e19d4b227df12ad00
 vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|35ad6e08d00e8b1695964fa7d6ddbc521eda8628
 
-# CDSP
+# CDSP - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/bin/cdsprpcd|a1b4c35ffdef184cc1334f3d1cf4fa56546d3621
 vendor/lib/libcdsprpc.so|583353ecd1fbca5ace190f2f5bea74b80213b371
 vendor/lib/libcdsp_default_listener.so|5c035d22a100501d090c15786ac720eecec15624
@@ -203,10 +203,10 @@ vendor/lib64/libcdsp_default_listener.so|94792d75a16534ae766aba9c0d4a4a62782eac6
 vendor/lib64/libfastrpc_utf_stub.so|d19ff5b0ef7506a5d28f5825547dcf235c2f8f96
 vendor/lib64/libsysmon_cdsp_skel.so|f3cb20891b795036134a659cd530287fe8c84369
 
-# Charger
+# Charger - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/bin/hvdcp_opti|28ddc05c33e107dc74bad6a5b5d9eef7d9250416
 
-# DPM
+# DPM - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 framework/tcmclient.jar|6ef9ca98f67c144fc8ae941bb3a47f99cbd93098
 product/bin/dpmd|cac8f3eadeeec202f56d5b5f7a8c75e82e376d9f
 product/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
@@ -233,7 +233,7 @@ vendor/lib/libdpmqmihal.so|f618b7d9387d35b757377f47452f503d8b405ed9
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|a70cfc1be3e06cde6318d6969e114429fe1950bb
 vendor/lib64/libdpmqmihal.so|25d74c0e867f023b71a7c599ab6d213c7de2725d
 
-# DRM
+# DRM - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/bin/qseecomd|03786ba1664aa7a6aca09b78139380c61d365e25
 vendor/lib/libQSEEComAPI.so|c063dd889f0723db332bd27399099c30227740ef
 vendor/lib64/libGPreqcancel.so|a5f7f9679fdd081c9b9ea8f5c4a3714761ca997c
@@ -249,13 +249,13 @@ vendor/lib64/libsecureui.so|319abd8fb83fe719ea05a1cc4c05aff2e1eec1aa
 vendor/lib64/libsecureui_svcsock.so|e81b59a6e1dac85b67f238ea98136cc121b39ac4
 vendor/lib64/libssd.so|2f9371b25a9774a4f4b1d1879aa47aa8b6f02195
 
-# FM
+# FM - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 lib64/fm_helium.so|10bf2489995d3717ebb0f91c73ffec3504fd0159
 lib64/libfm-hci.so|a281726ca32cd52609c9b3e65345eb7dd868339c
 product/lib64/vendor.qti.hardware.fm@1.0.so|c190ec6ecb995b556c30a214a8a7cf4894e72e5f
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|e5a0fff3d1f5b5ba8c10022cb06036971d48be0b
 
-# GPS
+# GPS - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/bin/garden_app|4981b8a9d94f0f1b582187d9d2f53705aee5e0b7
 vendor/bin/hw/android.hardware.gnss@2.0-service-qti|100d86b36b6aeb49c927d792808b5c6b9ef232c1
 vendor/bin/loc_launcher|6fe9d0230143f4aa96ddb9c047abe3d003cc815a
@@ -303,7 +303,7 @@ vendor/lib/vendor.qti.gnss@2.0.so|d096f8a23dcad8625239cda91e234040ad90afd4
 vendor/lib/vendor.qti.gnss@2.1.so|ce2336d0112c975e45bd240048f05e1b8ff6ba02
 vendor/lib/vendor.qti.gnss@3.0.so|a84260d500b3f065353e77759517483b628a46ce
 
-# GPS configs
+# GPS configs - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/etc/flp.conf|8c8642685c225fa0b715c284481018a527dae451
 vendor/etc/gps.conf|585fdd5d224bbf6259242f9cb9d8e2603c981301
 vendor/etc/izat.conf|2a7c10fd6a2504165665024e0dd7e58ba78f6679
@@ -311,7 +311,7 @@ vendor/etc/lowi.conf|1e47a73803542661b9a4c42cc8dfa576ae03a9a2
 vendor/etc/sap.conf|afbcbacb367b2fcc05efcad76ef096d794e768ba
 vendor/etc/xtwifi.conf|ac2189707c0016c31846ccec73e8857d7f566605
 
-# Graphics
+# Graphics - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 lib/libsdm-disp-apis.so:vendor/lib/libsdm-disp-apis.so|5b006423286008ba9b54b8c29e9ce2ab4b6fa14d
 lib64/libsdm-disp-apis.so:vendor/lib64/libsdm-disp-apis.so|25391818f65a4dfe3fdf0603109eacc4eedc4c13
 vendor/lib/egl/eglSubDriverAndroid.so|c90099d92d885e3533008cb422d872f6ebebc6d4
@@ -359,7 +359,7 @@ vendor/lib64/libmm-hdcpmgr.so|071fc1f6d156679e819c263231aa8e0ed8fceafe
 vendor/lib64/librs_adreno.so|e41149794e719c7f743c4d800def68a5c8e5f9ca
 vendor/lib64/librs_adreno_sha1.so|b1365ba67256051d2aee22daa9088ee67603d87f
 
-# Graphics (SDM)
+# Graphics (SDM) - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/lib/libscalar.so|7ac579768ffd2caee903d69d8fd3f7918b04ffbe
 vendor/lib/libsdm-color.so|fa3f8c0062d474fdf6960fcbcc3bf21a5c3fd594
 vendor/lib/libsdm-diag.so|46b5c2d6fab1e655efde1657b2e51dc00c00b763
@@ -373,7 +373,7 @@ vendor/lib64/libsdm-diag.so|87373a043267b9b3bb923931a910119a9deb425f
 vendor/lib64/libsdmextension.so|544f08d91ae5f50184b4f5661f327ce85ca74a72
 vendor/lib64/libtinyxml2_1.so|56d4d5d0ea010f951de219c7b9fd2c9695a5b9d2
 
-# Graphics firmware
+# Graphics firmware - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/firmware/a300_pfp.fw|899dbfad4812084971cfc1ff30f06a4b45c2d34c
 vendor/firmware/a300_pm4.fw|94529206b45b6e9f6ed30dadabe4244a88a60975
 vendor/firmware/a330_pfp.fw|3e2fcee7276ded819cf2d95864fdd6788a484ee1
@@ -388,10 +388,10 @@ vendor/firmware/a530v3_gpmu.fw2|0a2f6f450231673d75ba39e5d28776db3becf810
 vendor/firmware/a530v3_seq.fw2|8963a53acc689725dee4b22881a4dd4b80e5def8
 vendor/firmware/a540_gpmu.fw2|3530f10b4825a3b08c79e0bcfaf6471ec8422f24
 
-# Ipacm
+# Ipacm - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/bin/ipacm-diag|1816ba54f702e93ded17411c44384a7fa023d007
 
-# Latency
+# Latency - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 product/framework/vendor.qti.hardware.data.latency-V1.0-java.jar|c6c5d5bbf50b068df0184aef8551b95daa5f4791
 product/framework/vendor.qti.latency-V2.0-java.jar|d345e24271b83faecdb1abe1361db812fae0646f
 product/lib64/vendor.qti.hardware.data.latency@1.0.so|02d67f05706fafe49e9cff78f9eb8f4a5a5ff4a0
@@ -399,7 +399,7 @@ product/lib64/vendor.qti.latency@2.0.so|0adf01cc3d3bfe34438b0d755619e3efbd1c63a5
 vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|02d67f05706fafe49e9cff78f9eb8f4a5a5ff4a0
 vendor/lib64/vendor.qti.latency@2.0.so|0adf01cc3d3bfe34438b0d755619e3efbd1c63a5
 
-# Listen
+# Listen - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/lib/hw/sound_trigger.primary.msm8937.so|305f7f8ba1ab05c464ef669cfaa6e5bd3432f73b
 vendor/lib/libadpcmdec.so|be5fdf08a08b635816381e61b6bbf2874c62f613
 vendor/lib/libgcs-calwrapper.so|c1e42b5db0be908052f19de3c3bfc5cee6819363
@@ -417,7 +417,7 @@ vendor/lib64/libgcs.so|9018cdd801432804794c1371873d4f50942d1027
 vendor/lib64/liblistenjni.so|eaef51960b85d8d6904d268f96e56508fe9aa0c6
 vendor/lib64/liblistensoundmodel2.so|dfbfb43e255a474d1cf0cecb14b10ad63ac126c2
 
-# Media
+# Media - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/etc/seccomp_policy/mediacodec.policy|f1097f8e67ef20de89176cf2e9c4f5c91cb77897
 vendor/lib/libI420colorconvert.so|83ca4c3ec98711e5819832fd31203f048ebb6a4c
 vendor/lib/libmmosal_proprietary.so|470c2b69b4af88dff40b386f09a20be4e2bcddb6
@@ -447,11 +447,11 @@ vendor/lib64/libOmxQcelp13Dec.so|6f93faf47edee8c993d52ac6ff96705132948e7a
 vendor/lib64/libOmxWmaDec.so|fab3d4cd12993aa3938d3f9efe67025d415eb069
 vendor/lib64/libmm-color-convertor.so|75e2fc8a6fb54f1eab232c6aca448ee4957f29b4
 
-# Modem
+# Modem - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/lib/libwms.so|8644b54043617ea01c305de0f3c93d19f4bae397
 vendor/lib64/libwms.so|b482819e8bc2a568ef8a988749d712a27826ed6e
 
-# Perf
+# Perf - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|ed731317514e1992ac919a49a1f98e14e7a60eff
 vendor/bin/msm_irqbalance|b5e55b4b0934b65b7dd5d2201f9a70f6f77a4e7c
 vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc|cc8658db5e19f8e5e575fb986e7d38147e675f8d
@@ -472,13 +472,13 @@ vendor/lib64/libqti-perfd-client.so|cfdfe3d443085feae4cf4af398d711722b904388
 vendor/lib64/libqti-perfd.so|7a5724fcb4a5a7a74d58e2641c051934b038905d
 vendor/lib64/libqti-util.so|4911109f327c4bf9d1d34acc14082f78e69b4ccb
 
-# Peripheral manager
+# Peripheral manager - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/bin/pm-proxy|68133bb8341042b803e0f16ec77ab64734acbdb8
 vendor/bin/pm-service|47743f969a47df00b5c77e6b4f57fed5764a82fc
 vendor/lib/libperipheral_client.so|25914d4c9ba1399b3c88644fca881bfc3f576c2d
 vendor/lib64/libperipheral_client.so|0de6324f29d88b21c15141f07588ded242fc9db5
 
-# Postprocessing
+# Postprocessing - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 etc/permissions/com.qti.snapdragon.sdk.display.xml|0bff16d681e75f203c1e11ff33afba82490e49b3
 framework/com.qti.snapdragon.sdk.display.jar|495d45dd84a61e873a3d1176ab7741826e60d7f1
 vendor/bin/hw/vendor.display.color@1.0-service|dd461fbbbdc7175b8e1e37eba19bc1c48111b5b6
@@ -495,7 +495,7 @@ vendor/lib64/vendor.display.color@1.0.so|3c9d7e4c66bd95db07022e43e5f55a774d584bb
 vendor/lib64/vendor.display.postproc@1.0.so|cd36d0796c6631d25056fdc5cb28a50219620e04
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|4c130641f85b8707acbc852eadcc480883396fdc
 
-# Power-off alarm
+# Power-off alarm - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 product/framework/vendor.qti.hardware.alarm-V1.0-java.jar|69dedc62181ae26bb2fac4eaacb1f2c38eb21c31
 -product/app/PowerOffAlarm/PowerOffAlarm.apk|16d7fc0e296da58f6e4ea9368b2743b8a7417a1c
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|ff31b10944e315ca5db342232886d4d110a012af
@@ -504,7 +504,7 @@ vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|c9877b6cae0353d5fdea5bc
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|4f91100fd7b0b69a0bc13677af9f8b7b7c354f2c
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so|486f5f34e8dd05c327d1be5fb3909a68ab6bc313
 
-# QMI
+# QMI - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 etc/permissions/privapp-permissions-qti.xml|5feaa67c6b85afaf0b096a769b5a89e94a051f80
 etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
 etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
@@ -543,7 +543,7 @@ vendor/lib64/libqmi_common_so.so|0d9e6278cad9eb090088593bb4ef0f370dda2899
 vendor/lib64/libqmi_csi.so|441dec78400fa88c2567942ebc8242aaa69bb7c9
 vendor/lib64/libqmi_encdec.so|5416811fb81494e36be88ead0393c43daa5cb2fc
 
-# Radio
+# Radio - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 -product/app/datastatusnotification/datastatusnotification.apk|fc267dd7866a0ab560e164af9c87c9dc8c258284
 -product/app/embms/embms.apk|79360e7c0a6cb312a10ae931da40d00529da6d13
 -product/app/QtiTelephonyService/QtiTelephonyService.apk|1e1c91cbcb43896673dac9724e045c849b3f40bb
@@ -621,14 +621,14 @@ vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql|0571aacaf9fc
 vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql|0734c6a2863edadc7a8422b8310d267c594d11a0
 vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql|fcb2cba3bfd718ecdc8d3cfac3a0b2b2c7e8c506
 
-# Radio - QC RIL
+# Radio - QC RIL - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/bin/hw/qcrild|0d02a2b3e3e1c8ce2a619f886d32720460bafc4c
 vendor/etc/init/qcrild.rc|17cf4934bf443cf6469d8b3ff622eeb0e4a0aac6
 vendor/lib64/libqcrilFramework.so|92252dace4eed624091eb6e1f8822f980a33aceb
 vendor/lib64/libril-qc-hal-qmi.so|9af2db395315d4fc4cd10a85a1725d4562cc2f27
 vendor/lib64/qcrild_librilutils.so|06fb6603d441268b3fe3d08d32342c7f2d25c1ba
 
-# Radio - IMS
+# Radio - IMS - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 etc/permissions/com.qualcomm.qti.imscmservice.xml|db25ef24f1937366d58a53b4f4b8923bc9e98d2d
 -product/app/uceShimService/uceShimService.apk|a63a04ed4531e9889f7ed8d85d3595801da222ad
 product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml|aeaf8d4c7d421bd25a1aca1736980b6e4575c7ce
@@ -713,30 +713,30 @@ vendor/lib64/libsensor1.so
 vendor/lib64/libsensor_reg.so
 vendor/lib64/sensors.ssc.so
 
-# Thermal
+# Thermal - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/bin/thermal-engine|1adec8c5de1a095ed790879e5aabe1e249c816e3
 -vendor/lib/libthermalclient.so|5366dedac700727f05ed1729bf00c855d0777de4
 -vendor/lib64/libthermalclient.so|fead3fb780b175ef478c7ab120639dea5b37a802
 vendor/lib64/libthermalioctl.so|dbb89b6990fed7373cbfcfeac9c90a5dd2bc2bdd
 
-# Time services
+# Time services - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 -vendor/app/TimeService/TimeService.apk|4a37afd1395758d946580af184a738e3c657b1e2
 vendor/bin/time_daemon|7048574697718655cdcce0966d4c9543f9d0db90
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 -vendor/lib/libtime_genoff.so|08c0f7a8f247f98bc6944d02f7a588dc522476d4
 -vendor/lib64/libtime_genoff.so|3c84c33b565008682681e3dbdcac7c6312e060ce
 
-# TUI
+# TUI - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|05c0a47f24e38b14fc7c1ccfa64c585692277ee5
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|54d52110bef564b6a0020752db35b4950d99cd84
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|dc232e873775cb175c2559d2efbdec4500aa1637
 
-# Voice
+# Voice - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/lib/vendor.qti.voiceprint@1.0.so|3d867b027ce1ba4ee1a2861fab32eb6a1d7f7720
 vendor/lib64/vendor.qti.voiceprint@1.0.so|5783ba83cad9bebb59e168b548f350b4aa65f676
 
-# Widevine
+# Widevine - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine|f4258fe902140e7a35c59f79d274dde89a80d1e8
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|e3cb732c0bd519988100675edf385d947abf5f6c
 vendor/lib64/libwvhidl.so|e9523d0acf81021e2f9bfb311b704c708dc0221a
