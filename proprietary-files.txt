@@ -233,27 +233,35 @@ vendor/lib/libdpmqmihal.so|f618b7d9387d35b757377f47452f503d8b405ed9
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|a70cfc1be3e06cde6318d6969e114429fe1950bb
 vendor/lib64/libdpmqmihal.so|25d74c0e867f023b71a7c599ab6d213c7de2725d
 
-# DRM - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
-vendor/bin/qseecomd|03786ba1664aa7a6aca09b78139380c61d365e25
-vendor/lib/libQSEEComAPI.so|c063dd889f0723db332bd27399099c30227740ef
+# DRM and SEE - from deen_sprout - QPKS30.54-22-11
+vendor/bin/qseecomd|889912b919630be51bb4fdc4857b3d060a737170
+vendor/lib/libQSEEComAPI.so|199f80aa6b940204fe1119aa196a3f939a2d499e
 vendor/lib64/libGPreqcancel.so|a5f7f9679fdd081c9b9ea8f5c4a3714761ca997c
-vendor/lib64/libGPreqcancel_svc.so|fc3dbc1334e00eacf91ff8e14025507ad854dd96
-vendor/lib64/libQSEEComAPI.so|8a79273f20de2bc9adba35d8b332a679c82d6ec6
-vendor/lib64/libSecureUILib.so|03c39f5d19d8c9ac62c9f7c49d1509538fb71bef
-vendor/lib64/libStDrvInt.so|ff7716dffc69be33921006ce214e182e4280b402
-vendor/lib64/libdrmfs.so|a2cc69f55ecdfac9071c76f212f8e81b210e09cf
-vendor/lib64/libdrmtime.so|6a3b899ea9e03010768c70d54abc3b19d8c93998
+vendor/lib64/libGPreqcancel_svc.so|82ee3c978563896569468fdc006455b3f28f35e9
+vendor/lib64/libQSEEComAPI.so|597926ec6d1fca95a76f65f52659920c441d84c2
+vendor/lib64/libStDrvInt.so|46a4d0ae69d351c0977465aed8345b0ea535768d
+vendor/lib64/libdrmfs.so|bcae118bb9d2b07a2dae7fdcb30196293217e9ae
+vendor/lib64/libdrmtime.so|a8b04641f437e6235b3d708fe9ba486526f91ab2
 vendor/lib64/libqisl.so|491ac949ab488299c7a1ae4fe8257ec0a6f994b1
-vendor/lib64/librpmb.so|1cbc7c3df7cae6e5c229c35d80113e72be145d9e
-vendor/lib64/libsecureui.so|319abd8fb83fe719ea05a1cc4c05aff2e1eec1aa
-vendor/lib64/libsecureui_svcsock.so|e81b59a6e1dac85b67f238ea98136cc121b39ac4
-vendor/lib64/libssd.so|2f9371b25a9774a4f4b1d1879aa47aa8b6f02195
+vendor/lib64/librpmb.so|b74dce3afd27fee2caf7604032dad696211dd050
+vendor/lib64/libsecureui.so|dc3ccde15c3bdbc14da9fdc63dbf30973c5fe1b1
+vendor/lib64/libsecureui_svcsock.so|a7fdcd8001d4cdd9a30eb1ccc129324c398cc203
+vendor/lib64/libssd.so|33d717f793c2579e3bd17b5ce6534cb68c12887d
+
+# DRM - Qualcomm Trusted Execution Enviornment - from deen_sprout - QPKS30.54-22-11
+vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|4d4f6f54c856ccdab0fbdda7a5064b24cf72fcd9
+vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc|c966350ee67d3a7c73ca7184e3725264025d16f5
+vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|bc058b17763ed26f882d1042d2012f05022fa8f4
+vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|4b3afedf461fba7f06a31153d4047e52a6287dff
 
 # FM - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 lib64/fm_helium.so|10bf2489995d3717ebb0f91c73ffec3504fd0159
 lib64/libfm-hci.so|a281726ca32cd52609c9b3e65345eb7dd868339c
 product/lib64/vendor.qti.hardware.fm@1.0.so|c190ec6ecb995b556c30a214a8a7cf4894e72e5f
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|e5a0fff3d1f5b5ba8c10022cb06036971d48be0b
+
+# Gatekeeper - from deen_sprout - QPKS30.54-22-11
+vendor/lib64/hw/gatekeeper.msm8937.so|3125e1bad9e8231df1628d909ba514b250835a7d
 
 # GPS - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/bin/garden_app|4981b8a9d94f0f1b582187d9d2f53705aee5e0b7
@@ -390,6 +398,9 @@ vendor/firmware/a540_gpmu.fw2|3530f10b4825a3b08c79e0bcfaf6471ec8422f24
 
 # Ipacm - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/bin/ipacm-diag|1816ba54f702e93ded17411c44384a7fa023d007
+
+# Keymaster - from deen_sprout - QPKS30.54-22-11
+vendor/lib64/hw/keystore.msm8937.so|d8303e587ac8cd79205ddf5e0627edefbc281561
 
 # Latency - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 product/framework/vendor.qti.hardware.data.latency-V1.0-java.jar|c6c5d5bbf50b068df0184aef8551b95daa5f4791
@@ -726,11 +737,10 @@ vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 -vendor/lib/libtime_genoff.so|08c0f7a8f247f98bc6944d02f7a588dc522476d4
 -vendor/lib64/libtime_genoff.so|3c84c33b565008682681e3dbdcac7c6312e060ce
 
-# TUI - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
+# TUI - from deen_sprout - QPKS30.54-22-11
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|05c0a47f24e38b14fc7c1ccfa64c585692277ee5
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
-vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|54d52110bef564b6a0020752db35b4950d99cd84
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|dc232e873775cb175c2559d2efbdec4500aa1637
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|5d53f4123551317fe67cf6aadd7fc836b7b97076
 
 # Voice - from ASUS_X00PD-user 10 QKQ1.191002.002 17.00.2003.23-20200401 release-keys
 vendor/lib/vendor.qti.voiceprint@1.0.so|3d867b027ce1ba4ee1a2861fab32eb6a1d7f7720
