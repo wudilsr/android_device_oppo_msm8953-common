@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-COMMON_PATH := device/oppo/msm8937-common
+COMMON_PATH := device/oppo/msm8953-common
 
 # APEX
 OVERRIDE_TARGET_FLATTEN_APEX := true
@@ -47,7 +47,7 @@ BOARD_USES_ALSA_AUDIO := true
 USE_CUSTOM_AUDIO_POLICY := 1
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := msm8937
+TARGET_BOOTLOADER_BOARD_NAME := msm8953
 TARGET_NO_BOOTLOADER := true
 
 # Bluetooth
@@ -101,7 +101,7 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_CUSTOM_BOOTIMG := true
 BOARD_CUSTOM_BOOTIMG_MK := $(COMMON_PATH)/boot/mkbootimg.mk
-TARGET_KERNEL_SOURCE := kernel/oppo/msm8937
+TARGET_KERNEL_SOURCE := kernel/oppo/msm8953
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
@@ -123,7 +123,7 @@ TARGET_USES_INTERACTION_BOOST := true
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
-TARGET_BOARD_PLATFORM := msm8937
+TARGET_BOARD_PLATFORM := msm8953
 
 # Properties
 TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
@@ -167,4 +167,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit the proprietary files
-include vendor/oppo/msm8937-common/BoardConfigVendor.mk
+include vendor/oppo/msm8953-common/BoardConfigVendor.mk

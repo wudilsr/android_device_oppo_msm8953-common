@@ -5,7 +5,7 @@
 //
 
 cc_library_static {
-    name: "libinit_oppo_msm8937",
+    name: "libinit_oppo_msm8953",
     srcs: [
         "libinit_dalvik_heap.cpp",
         "libinit_utils.cpp",
@@ -15,9 +15,9 @@ cc_library_static {
 }
 
 cc_library_static {
-    name: "init_oppo_msm8937",
-    srcs: ["init_oppo_msm8937.cpp"],
-    whole_static_libs: ["libinit_oppo_msm8937"],
+    name: "init_oppo_msm8953",
+    srcs: ["init_oppo_msm8953.cpp"],
+    whole_static_libs: ["libinit_oppo_msm8953"],
     include_dirs: ["system/core/init"],
     recovery_available: true,
 }

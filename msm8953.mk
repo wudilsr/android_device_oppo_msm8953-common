@@ -61,7 +61,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
     audio.bluetooth.default \
-    audio.primary.msm8937 \
+    audio.primary.msm8953 \
     audio.r_submix.default \
     audio.usb.default
 
@@ -121,17 +121,17 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
     android.hardware.graphics.allocator@2.0-service \
     android.hardware.graphics.mapper@2.0-impl-2.1 \
-    gralloc.msm8937
+    gralloc.msm8953
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-impl \
     android.hardware.graphics.composer@2.1-service \
-    hwcomposer.msm8937
+    hwcomposer.msm8953
 
 PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
-    memtrack.msm8937
+    memtrack.msm8953
 
 PRODUCT_PACKAGES += \
     libdisplayconfig \
@@ -205,7 +205,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-impl \
     android.hardware.light@2.0-service \
-    lights.msm8937
+    lights.msm8953
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
@@ -323,7 +323,7 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl \
     android.hardware.thermal@1.0-service \
-    thermal.msm8937
+    thermal.msm8953
 
 # Trust
 PRODUCT_PACKAGES += \
@@ -360,7 +360,7 @@ PRODUCT_PACKAGES += \
     libwifi-hal-ctrl \
     libwifi-hal-qcom \
     libwpa_client \
-	TetheringConfigOverlay \
+    TetheringConfigOverlay \
     wcnss_service \
     WifiOverlay \
     wificond \
@@ -374,4 +374,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/oppo/msm8937-common/msm8937-common-vendor.mk)
+$(call inherit-product, vendor/oppo/msm8953-common/msm8953-common-vendor.mk)

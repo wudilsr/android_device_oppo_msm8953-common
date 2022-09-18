@@ -1,4 +1,4 @@
-# Common device tree for OPPO MSM8937 devices
+# Common device tree for OPPO MSM8953 devices
 
 ```
 #
